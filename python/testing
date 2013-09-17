@@ -1,0 +1,27 @@
+def hello():
+    
+    x = 5
+    y = 4
+    if  x > 5 and x ==5:
+        print "is True"
+    
+    else:
+        print "else ran"
+
+
+def isEqual(x,y):
+    return x == y
+
+def isGreaterThan (x,y):
+    return x > y
+
+def add(x,y):
+    return x + y
+
+def multiply(x,y):
+    return x * y
+def mod(x,y):
+    return x % y
+
+if __name__ == "__main__":
+    hello()
